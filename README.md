@@ -46,3 +46,16 @@ and use following command to get the prediction:
 ```
 Then submit the predictions to their [evaluation websites](https://competitions.codalab.org/competitions/27980) and get the prediction accuracy.
 
+## Results
+**FewRel 1.0**
+|     | 5-way 1-shot | 5-way 5-shot | 10-way 1-shot | 10-way 5-shot |
+|:---:|:------------:|:------------:|:-------------:|:-------------:|
+|Val  |94.54|98.02|90.10|96.15|
+|Test |96.47|98.21|93.93|96.91|
+
+**FewRel 2.0**
+|     | 5-way 1-shot | 5-way 5-shot | 10-way 1-shot | 10-way 5-shot |
+|:---:|:------------:|:------------:|:-------------:|:-------------:|
+|Val  |
+|Test |78.66|90.05|66.94|83.22|
+
