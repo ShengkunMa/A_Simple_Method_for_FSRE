@@ -23,7 +23,7 @@ and put it under the `./ckpt/`. \
 Please refer to [https://github.com/thunlp/RE-Context-or-Names](https://github.com/thunlp/RE-Context-or-Names) for training details.
 
 ## Evaluation
-To evaluate our method, use command: \
+To evaluate our method, use command: 
  ```
   python -u train_demo.py
 ```
@@ -34,4 +34,15 @@ The args are listed as follows:
 - `Q`: Sample Q query instances for each relation.
 - `classifier`: Task-specific classifier LR or SVM.
 - `ckpt`: Checkpoints file for different feature extractors.
+
 ## Test
+Please download input of test set from [FewRel website](https://competitions.codalab.org/competitions/27980),
+and use following command to get the prediction:
+```
+ python -u test_demo.py 
+    --test_path [test file path]
+    --N [N in test file]
+    --K [K in test file]
+```
+Then submit the predictions to their [evaluation websites](https://competitions.codalab.org/competitions/27980) and get the prediction accuracy.
+
