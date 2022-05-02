@@ -1,7 +1,7 @@
 # A Simple Method for Few-shot Relation Extraction
 This is the implementation of our paper **A Simple Method for Few-shot Relation Extraction**
 
-## requiements
+## Requiements
 - `python 3.6`
 - `PyTorch 1.7.0`
 - `transformers 4.0.0`
