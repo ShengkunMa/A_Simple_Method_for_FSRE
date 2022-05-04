@@ -2,6 +2,7 @@ import json
 import torch
 import time
 import random
+import os
 import numpy as np
 from transformers import BertTokenizer
 
@@ -68,6 +69,8 @@ def extractor_feature(data_path, model, save_path, batch_size=4, max_length=128)
     print('model computing time: {:.2f}'.format(t4 - t3))
     for pid in data_feature:
         data_feature[pid] = data_feature[pid].tolist()
+    if not os.path.exists('./feature'):
+        os.mkdir('./feature')
     with open(save_path, 'w') as f:
         json.dump(data_feature, f)
 
@@ -92,6 +95,8 @@ def extractor_feature_test(data_path, model, save_path, max_length=128):
             data_feature.append(feature_meta)
     t3 = time.time()
     print(f'model time: {t3 - t2}')
+    if not os.path.exists('./feature'):
+        os.mkdir('./feature')
     with open(save_path, 'w') as f:
         json.dump(data_feature, f)
 
