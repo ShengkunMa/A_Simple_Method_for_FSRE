@@ -1,1 +1,1 @@
-Due to the large size, we did not upload the trained parameters. Please download checkpoint from [Google Drive]() and put it under here.
+Due to the large size, we did not upload the trained parameters. Please download checkpoint from [Google Drive](https://drive.google.com/file/d/1rnSYhyyYn6ZbQCcJ6e-hG3-OH2PIQQdT/view) and put it under here.
