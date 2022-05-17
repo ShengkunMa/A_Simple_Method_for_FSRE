@@ -56,6 +56,6 @@ Then submit the predictions to their [evaluation websites](https://competitions.
 **FewRel 2.0**
 |     | 5-way 1-shot | 5-way 5-shot | 10-way 1-shot | 10-way 5-shot |
 |:---:|:------------:|:------------:|:-------------:|:-------------:|
-|Val  |
+|Val  |75.52|89.34|64.27|82.46|
 |Test |78.66|90.05|66.94|83.22|
 
