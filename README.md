@@ -47,6 +47,7 @@ and use following command to get the prediction:
 Then submit the predictions to their [evaluation websites](https://competitions.codalab.org/competitions/27980) and get the prediction accuracy.
 
 ## Results
+The experimental results on FewRel 1.0 and FewRel 2.0 are shown in accuracy(%) as follows:
 **FewRel 1.0**
 |     | 5-way 1-shot | 5-way 5-shot | 10-way 1-shot | 10-way 5-shot |
 |:---:|:------------:|:------------:|:-------------:|:-------------:|
